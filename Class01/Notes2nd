@@ -1,0 +1,21 @@
+What is Software Testing?
+A: doing testing for making the software bug free
+
+Why do we need Automation?
+A: manual is too slow so automation makes it easier.
+
+What is selenium?
+A: manual work done by selenium, as it becomes automated.
+
+Selenium RC     >outdated
+Selenium IDE    >its like plugin/extension for browser  (doesn't has much power)
+Selenium Grid   >to run tests on multiple machines  (not learning from Syntax)
+Selenium Webdriver  >to interact with browsers
+
+How to reload dependencies when face issues in pom.xml file?
+A: pom.xml file is a management dependency file. Go to pom.xml > maven > reload project
+________________________________________________________________________________
+
+*there's a driver for each browser
+*main is for developer's
+*jarFile; is like a library, a form of dependencies, integration is done manually

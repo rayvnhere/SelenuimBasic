@@ -1,0 +1,62 @@
+Webdriver Commands
+
+WebDriverCommands
+1.get()  navigate            > to a particular url
+2.driver.Navigate.to(url)    > to a particular url
+
+Q:    difference between get and navigate
+A:    get is going to wait for the whole webpage to load (IT WAITS TO LOAD)
+                           whereas
+    navigate doesn't wait for the whole webpage to load   (NOT GOING TO WAIT, will immediately go to next command)
+    e.g. this is good when I want to check 2nd page not first
+
+    -get doesn't keeps history
+         whereas
+    -navigate keeps history can go back and forward
+
+----------------------------------------------------------------------------------------------
+WebDriverCommands
+driver.manage().window.maximize()   > maximizes the screen (can see topBar cross button)
+driver.manage().window.maximize()   > fullScreen mode (no top bar)
+---------
+driver.getTitle()  > gets the title of website
+---------
+driver.getCurrentUrl()   > gets the current url of website
+----------
+                                       ↓ both close/quit the browser ↓
+driver.close()  > close the current window
+driver.quit()   > close whole browser no matter how many windows are opened up
+---------
+driver.navigate().back()
+driver.navigate().forward()
+driver.navigate().refresh()    > refreshes page
+-----------------------------------------------------------------------------------------------------------
+
+
+How websites are made?
+HTML is used to crete webpages
+   anyting inside <  > is tag is also an openingtag
+   </  > closing tag
+--------------------------------------------------------
+HTML Code  <button id="click="button">clickMe!!</button>
+--------                                ----------------
+<button     "tagName"
+</button>    "closingTag of button"
+
+id is attribute
+class is attribute
+
+"click" value of the attribute id
+"buttons" value of attribute class
+
+<  shows TagName
+=  shows attributes and value
+> text between <      shows text
+
+______________________________________________
+Relationship
+
+<html> parent of Body
+   <body> parent of child
+     <h1> child of body
+     <form>  sibling of h1
